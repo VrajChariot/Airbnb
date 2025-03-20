@@ -1,15 +1,15 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+
     ::-webkit-scrollbar {
         display: none;
     }
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,31 +17,31 @@ body{
     background-color: #ff5a5f;
 }
 
-.hero{
+.hero {
     width: 80vw;
     background-color: white;
     display: flex;
     justify-content: space-between;
     border-radius: 33px;
-    align-items: flex-start;
-    /* gap: 50px; */
+    /* min-width: 950px; */
     height: 800px;
     padding: 13px;
 
 }
 
-.intro{
+
+.intro {
     /* background-color: white; */
     width: 60%;
     padding: 13px;
 }
 
-.details{
+.details {
     padding: 10px;
 }
 
 
-.intro .heading{
+.intro .heading {
     display: flex;
     font-size: 80px;
     text-transform: lowercase;
@@ -53,14 +53,14 @@ body{
     justify-content: center;
 }
 
-.seprate{
+.seprate {
     width: 70vw;
     height: 1px;
     margin-bottom: 10px;
     background-color: rgba(128, 128, 128, 0.507);
 }
 
-.intro img{
+.intro img {
     width: 90px;
     object-fit: contain;
 }
@@ -68,8 +68,8 @@ body{
 /* .explain{
     display: flex;
     flex-direction: column;
-} */
-.screen{
+    } */
+.screen {
     display: flex;
     flex-direction: column;
     width: 370px;
@@ -83,11 +83,11 @@ body{
     box-shadow: 7px 8px 50px 3px #c3c3c3;
 }
 
-.screen:hover{
+.screen:hover {
     box-shadow: 0px 5px 20px 3px #a6a6a6;
 }
 
-.nav{
+.nav {
     padding-top: 5px;
     display: flex;
     flex-direction: column;
@@ -102,7 +102,7 @@ body{
     position: sticky;
 }
 
-.search{
+.search {
     width: 100%;
     /* background-color: blue; */
     display: flex;
@@ -117,7 +117,7 @@ body{
 
 }
 
-.search_shadow{
+.search_shadow {
     width: 90%;
     height: 5.5vh;
     border-radius: 25px;
@@ -125,16 +125,16 @@ body{
     justify-content: center;
     align-items: center;
     box-shadow: 4px 5px 20px 0px rgba(128, 128, 128, 0.532);
-    
+
 }
 
 /* .search_shadow img{
-    width: 52px;
-    height: 20px;
-    object-fit: contain;
-} */
+        width: 52px;
+        height: 20px;
+        object-fit: contain;
+        } */
 
-.search input{
+.search input {
     width: 100%;
     height: 5.5vh;
     border-radius: 25px;
@@ -150,17 +150,19 @@ body{
 }
 
 /* .buttons{
-    width: 70px;
-    height: 50px;
-    background-color: brown;
-} */
+            width: 70px;
+            height: 50px;
+            background-color: brown;
+            } */
 
-.buttons{
-    width: 100%; /* Ensure it doesn't exceed the container */
+.buttons {
+    width: 100%;
+    /* Ensure it doesn't exceed the container */
     /* background-color: black; */
     display: grid;
     grid-template-columns: repeat(6, auto);
-    justify-content: center; /* Centers the grid */
+    justify-content: center;
+    /* Centers the grid */
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     gap: 15px;
     padding-top: 10px;
@@ -169,36 +171,39 @@ body{
     overflow: scroll;
 }
 
-.btn{
+.btn {
     width: 58px;
     /* height: 50px; */
     /* height: auto; */
     /* background-color: brown; */
     /* padding: 5px; */
     display: flex;
-    margin-top: 8px; 
+    margin-top: 8px;
     /* scroll-snap-align: start; */
     flex-direction: column;
-    align-items: center; /* Center items */
+    align-items: center;
+    /* Center items */
     text-align: center;
 }
 
-.buttons img{
+.buttons img {
     width: 50%;
     height: 100%;
     object-fit: contain;
 }
 
 .btn p {
-    margin-top: 2px; 
-    font-size: 10px; /* Adjust text size */
-    color: black; /* Adjust text color if needed */
+    margin-top: 2px;
+    font-size: 10px;
+    /* Adjust text size */
+    color: black;
+    /* Adjust text color if needed */
     /* font-family: "Poppins", sans-serif; */
     font-weight: 500;
     font-style: normal;
 }
 
-.main_content{
+.main_content {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr;
@@ -208,7 +213,7 @@ body{
     /* background-color: aqua; */
 }
 
-.listing{
+.listing {
     /* background-color:bisque; */
     width: 90%;
     /* height: 275px; */
@@ -219,27 +224,30 @@ body{
     font-size: 13px;
 }
 
-.listing img{
+.listing img {
     height: 275px;
     width: 100%;
     border-radius: 12px;
     object-fit: fill;
     margin-bottom: 3px;
 }
-.listing .dark{
-    font-weight: 500;
-    font-style: normal;
-}
-.listing .light{
-    font-weight: 300;
-    font-style: normal;
-}
-.listing .price{
+
+.listing .dark {
     font-weight: 500;
     font-style: normal;
 }
 
-.footer{
+.listing .light {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.listing .price {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.footer {
     height: 63px;
     /* background-color: aqua; */
     border-bottom-right-radius: 33px;
@@ -252,7 +260,7 @@ body{
     border-top: 1px solid rgba(128, 128, 128, 0.466);
 }
 
-.img_container{
+.img_container {
     display: flex;
     flex-direction: column;
     height: 80%;
@@ -263,11 +271,58 @@ body{
     /* border-radius: 33px; */
 }
 
-.img_container img{
+.img_container img {
     height: 50%;
     object-fit: contain;
 }
 
-.img_container p{
+.img_container p {
     font-size: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .hero {
+        width: 100vw;
+    }
+
+}
+
+
+@media screen and (max-width: 820px) {
+    body {
+        background-color: white;
+    }
+
+    .hero {
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-between; /* Distribute space */
+        align-items: center;
+        min-height: 0; /* Prevent overflow */
+        /* overflow: hidden; */
+    }
+
+    .intro {
+        flex: 1; /* Allow intro to take available space */
+        width: 95%;
+        padding: 13px;
+        font-size: small;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center text */
+    }
+
+    .intro .heading {
+        font-size: 42px;
+    }
+
+    .intro img {
+        width: 45px;
+    }
+    .seprate {
+        width: 100%;
+    }
+
 }
