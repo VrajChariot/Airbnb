@@ -4,7 +4,8 @@
 [Click here to view](https://vrajchariot.github.io/Airbnb/)
 
 ## 📸 Screenshots
-<img width="855" alt="Screenshot 2025-04-18 at 3 08 01 PM" src="https://github.com/user-attachments/assets/68227b36-34c0-4b81-b2df-4de7fe925d54" /># Airbnb Landing Page Clone
+<img width="855" alt="Screenshot 2025-04-18 at 3 08 01 PM" src="https://github.com/user-attachments/assets/68227b36-34c0-4b81-b2df-4de7fe925d54" />
+# Airbnb mobile application Landing Page Clone
 
 
 ## 📋 Features
