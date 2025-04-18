@@ -280,6 +280,11 @@ body {
     font-size: 10px;
 }
 
+.footer .img_container:hover {
+    filter: brightness(0) saturate(100%) invert(41%) sepia(99%) saturate(1925%) hue-rotate(340deg) brightness(96%) contrast(105%);
+}
+  
+
 @media screen and (max-width: 1150px) {
     .hero {
         width: 100vw;
